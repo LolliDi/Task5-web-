@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Spectral+SC:wght@700&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color:#4a657d;
+}
+@keyframes anim{
+    from{
+    opacity: 0.4;
+    }
+    to{
+    opacity: 1;
+    }
+}
+
+
+body{
+    height: 5048px;
+    width: 1600px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+button{
+    background-color: #1f87e4;
+    border-width: 0px;
+    color: white;
+    height: 50px;
+    width: 204px;
+    font-weight: bold;
+}
+#CapBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    background: #4a657d;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0px 0px 3px #A5A5A5;
+    z-index: 2;
+}
+#CapBlock i, #CapBlock p{
+    font-size: 12px;
+    color: white;
+}
+.TextSeparator{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#CapBlock p{
+    font-weight: bold;
+}
+#ContactBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    margin-left: 15%;
+}
+#ContactBlock i{
+    margin-right: 2%;
+}
+#SocBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15%;
+    width: 31%;
+}
+#SocBlock i{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#SocBlock button{
+    margin-left: 3%;
+}
+
+#CapNavBlock{
+    background: white;
+    height: 1.66%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0px 0px 4px #A5A5A5;
+    z-index: 1;
+}
+#CapNavBlock nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 30%;
+    width: 30%;
+}
+#CapNavBlock nav p{
+    margin-left: 7%;
+    font-weight: bold;
+}
+#CapNavBlock img{
+    margin-left: 15%;
+    height: 64px;
+    width: 175px;
+}
+.ImgSlider{
+    background-image: url("img/doctorsCap.png");
+    height: 951px;
+    width: 1600px;
+    object-fit: cover;
+
+}
+#Img1,#Img2{
+    display: none;
+}
+#SliderCapBlock{
+    animation-name: anim;
+    animation-duration: 2s;
+    margin-top: -951px;
+    height: 951px;
+    width: 1600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.NavButton{
+    margin: 0px;
+    width: 50px;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.NavButton i{
+    color: white;
+}
+#InfoSlider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -30px;
+}
+#InfoSlider p{
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#AboutUsBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 767px;
+    width: 100%;
+}
+#AboutUsBlock img{
+    height: 567px;
+    width: 691px;
+    margin-right: 100px;
+}
+h2{
+    font-size: 36px;
+    width: 550px;
+}
+
+h2 span{
+    font-size: 36px;
+    color: #1f87e4;
+}
+#AboutUsInfo p{
+    width: 650px;
+    margin-bottom: 50px;
+    margin-top: -20px;
+}
+
+h3{
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+h5{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#FeaturesBlock{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#FeaturesBlock p{
+    width: 530px;
+    text-align: center;
+}
+#BlocksBlock{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+}
+.Blocks13{
+    width: 350px;
+    height: 396px;
+    background: #EBEBEB;
+}
+#Block2{
+    width: 410px;
+    height: 467px;
+    background:#1f87e4;
+}
+#Block2 p, #Block2 h4{
+    color: white;
+    width: 70%;
+    text-align: center;
+}
+#Block1 p, #Block1 h5, #Block3 p, #Block3 h5{
+    color: #4a657d;
+    width: 77%;
+    text-align: center;
+}
+#Block2 button{
+    background: white;
+    color: #4a657d;
+}
+.Blocks13, #Block2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Blocks13 button, #Block2 button{
+    width: 107px;
+    height: 38px;
+    margin-top: 25px;
+}
+
+h6{
+    font-size: 12px;
+    font-weight:bold ;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+#PracticeBlock{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#PracticeBlock h6{
+    color: #1f87e4;
+}
+.PracticeP{
+    width: 550px;
+    text-align: center;
+    height: 0px;
+}
+#PracriceServicesBlock{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Services{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 200px;
+    width: 265px;
+}
+.Services img{
+    width: 260px;
+    height: 166px;
+}
+
+#WhyChooseBlock{
+    background-image: url('img/WhyChooseUsBack.png');
+    width: 100%;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+#WhyChooseBlock p,#WhyChooseBlock h1, #WhyChooseBlock h6, #WhyChooseBlock h3{
+    color: white;
+}
+#ArgumentsBlock{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 120px;
+    margin-top: 30px;
+}
+.ArgumentBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#PortfolioBlock1{
+    height: 820px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#PortfolioBlock1 img{
+    margin-top: 70px;
+    width: 1100px;
+    height: 550px;
+}
+#PortfolioNav{
+    margin-top: -550px;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#PortfolioNav nav{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -10px;
+}
+#PortfolioNav nav h6{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+}
+#PortfolioNav nav h6:first-of-type{
+    color: #1f87e4;
+}
+#ImdBlock{
+    display: flex;
+    flex-direction: row;
+}
+#ImdBlock img{
+    margin-left: 1px;
+    margin-right: 1px;
+    height: 300px;
+    width: 398px;
+}
+
+
+
+#PortfolioBlock{
+    height: 850px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#PersonBlock{
+    display: flex;
+    flex-direction: row;
+    
+}
+.PortfolioPerson{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 250px;
+    height: 500px;
+}
+.PortfolioPerson img{
+    width: 250px;
+    height: 310px;
+}
+.PortfolioPerson p{
+    font-size: 12px;
+}
+.WorkerName{
+    color: #1f87e4;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+#EndBlock{
+    height: 50px;
+    background: #4a657d;
+    width: 100%;
+}
